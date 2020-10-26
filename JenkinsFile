@@ -14,7 +14,8 @@ pipeline {
                 sh "cp -r  /ui_test_poc /var/lib/jenkins/workspace/test2/fold"
 
           dir('fold/ui_test_poc') {
-              sh 'behave'
+              //sh 'behave' changes
+              
 
               }
 
